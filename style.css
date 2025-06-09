@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+    color: #333;
+}
+header {
+    background: #4e8cff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #ffd700;
+}
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.apresentacao {
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: #4e8cff;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background 0.2s;
+}
+.btn:hover {
+    background: #3561a7;
+}
+footer {
+    text-align: center;
+    padding: 16px 0;
+    background: #222;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.lista-cachorros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 32px;
+}
+.cachorro {
+    background: #f0f4ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+}
+.cachorro img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+.cachorro h3 {
+    margin: 8px 0 4px 0;
+}
+.cachorro .preco {
+    color: #4e8cff;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 8px;
+}
+.form-contato {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: #f0f4ff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.form-contato label {
+    font-weight: bold;
+}
+.form-contato input,
+.form-contato textarea {
+    padding: 8px;
+    border: 1px solid #b0c4de;
+    border-radius: 4px;
+    font-size: 1em;
+}
+.form-contato button {
+    background: #4e8cff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 0;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.form-contato button:hover {
+    background: #3561a7;
+}
+.logo-fixa {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    max-width: 80px;
+    height: auto;
+    z-index: 1000;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 4px;
+}
+header {
+    padding-left: 120px; /* Espaço para a logo fixa não sobrepor o título */
+}
